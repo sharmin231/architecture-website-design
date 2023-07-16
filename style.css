@@ -74,3 +74,40 @@ a{
         padding: 50px;
     }
 }
+main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+
+}
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding: 50px;
+}
+.teams-title{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.teams-content .gray-font{
+    color: #727272;
+}
+.teams-title .black-font{
+    color: #131313;
+    font-weight: 700;
+}
+.teams-content .orange-font{
+    color: #FF900E;
+    font-weight: 700;
+}
+.teams-content .teams-description{
+    color: #727272;
+    font-size: 1rem;
+
+}
