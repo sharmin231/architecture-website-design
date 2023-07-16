@@ -124,7 +124,8 @@ main{
     header{
         padding: 20px;
     }
-    nav{
-        padding: 50px;
+    nav, .teams-container{
+        flex-direction: column;
     }
+    
 }
