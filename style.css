@@ -6,6 +6,7 @@
 
 header {
     background-color: rgba(255, 144, 14, 0.10);
+    width: auto;
 
 }
 
@@ -187,6 +188,10 @@ main {
     .teams-image-container {
         grid-template-columns: 1fr;
     }
+    .facts-card-container{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -194,9 +199,12 @@ main {
         padding: 20px;
     }
 
-    nav,
+    nav{
+        flex-direction: column;
+    }
     .teams-container {
         flex-direction: column;
+        gap: 20px;
     }
 
 }
