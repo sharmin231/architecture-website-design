@@ -206,5 +206,8 @@ main {
         flex-direction: column;
         gap: 20px;
     }
+    .facts-card-container{
+        gap: 20px;
+    }
 
 }
